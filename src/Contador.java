@@ -17,8 +17,6 @@ public class Contador {
           return 0;
     }
 
-    public int limite() {
-        return 10;
-    }
+   
 
 }
