@@ -10,6 +10,12 @@ public class testPrueba {
             assertEquals(1,ini);
        } 
        
- 
+    @Test
+      public void testValorInicial() {
+           Contador inicial = new Contador();
+           int inicio = inicial.valorInicial();
+           assertEquals(0,inicio);
+       }
+     
 
 }
