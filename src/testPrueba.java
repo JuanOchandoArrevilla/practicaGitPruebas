@@ -17,5 +17,11 @@ public class testPrueba {
            assertEquals(0,inicio);
        }
      
+    @Test
+      public void testLimite() {
+          Contador limite = new Contador();
+          int limi = limite.limite();
+          assertEquals(10, limi);
+      }
 
 }
