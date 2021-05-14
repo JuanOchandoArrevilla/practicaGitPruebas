@@ -10,7 +10,11 @@ public class Contador {
         this.valorIniciar = 0;
     }
    public int  incremento() {
-          return 1;
+          return  1;
+    }
+
+    public int valorInicial() {
+          return 0;
     }
 
 }
