@@ -2,12 +2,12 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
 
-        Contador pru = new Contador(10);
-             pru.incremento();
-             pru.incremento();
-             pru.valorInicial();
-       System.out.println( pru.valorInicial());
-       
-        
+        Contador w = new Contador(0, 1, 5);
+         w.incremento();
+
+        System.out.println(w.incremento());
+
+      
+
     }
 }

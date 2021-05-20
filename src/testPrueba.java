@@ -4,12 +4,7 @@ import org.junit.Test;
 
 public class testPrueba {
 
-    @Test
-    public void tesIncrementoDefaul() {
-        Contador defa = new Contador();
-        int fu = defa.incremento();
-        assertEquals(1,fu);
-    }
+  
 
     @Test
        public void testIncremento() {
@@ -20,19 +15,10 @@ public class testPrueba {
        
     @Test
       public void testValorInicial() {
-           Contador inicial = new Contador();
-           int inicio = inicial.valorInicial();
-            assertEquals(0,inicio);
+           Contador inicial = new Contador(0,1,10);
+            assertEquals(0,inicial.incremento());
        }
-     
-     @Test
-     public void testLimite() {
-        Contador limite = new Contador( 15);
-        int limi = limite.limite();
-        assertEquals(15, limi);
-        
-    } 
-
+  
      
 
      
