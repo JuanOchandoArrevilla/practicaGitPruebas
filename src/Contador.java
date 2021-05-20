@@ -20,7 +20,9 @@ public class Contador {
           return this.valorIniciar + 1;
     }
 
-   
+    public int valorInicial() {
+          return 0;
+    }
 
     public int limite() {
         return 10;
