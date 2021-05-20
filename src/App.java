@@ -5,7 +5,7 @@ public class App {
         Contador pru = new Contador(10);
              pru.incremento();
              pru.incremento();
-            
+             pru.valorInicial();
        System.out.println( pru.valorInicial());
        
         

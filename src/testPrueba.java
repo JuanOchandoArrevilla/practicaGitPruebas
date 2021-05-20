@@ -22,15 +22,14 @@ public class testPrueba {
       public void testValorInicial() {
            Contador inicial = new Contador();
            int inicio = inicial.valorInicial();
-           int pi = inicial.valorInicial();
-           assertEquals(pi,inicio);
+            assertEquals(0,inicio);
        }
      
      @Test
      public void testLimite() {
-        Contador limite = new Contador();
+        Contador limite = new Contador( 15);
         int limi = limite.limite();
-        assertEquals(10, limi);
+        assertEquals(15, limi);
         
     } 
 
