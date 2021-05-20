@@ -5,7 +5,7 @@ public class Contador {
     protected int valorIniciar;
     
    public Contador() {
-        this.valorIniciar= 1;
+        this.valorIniciar = 0;
         this.limite = 10;
         this.incremento = 1;
     }
@@ -17,11 +17,15 @@ public class Contador {
     }
 
    public int  incremento() {
-          return this.valorIniciar + 1;
+        this.valorIniciar += 1;
+        if (valorIniciar == this.limite) {
+            this.valorIniciar = 0;
+        }
+          return this.valorIniciar ;
     }
 
     public int valorInicial() {
-          return this.valorIniciar;
+       return this.valorIniciar = 0;
     }
 
     public int limite() {

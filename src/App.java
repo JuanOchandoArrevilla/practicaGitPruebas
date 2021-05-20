@@ -6,7 +6,7 @@ public class App {
              pru.incremento();
              pru.incremento();
             
-       System.out.println( pru.valorInicial()); 
+       System.out.println( pru.valorInicial());
        
         
     }
