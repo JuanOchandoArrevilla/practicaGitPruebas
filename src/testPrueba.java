@@ -5,7 +5,7 @@ import org.junit.Test;
 public class testPrueba {
     @Test
        public void testIncremento() {
-           Contador incre = new Contador();
+           Contador incre = new Contador(10);
            int ini = incre.incremento();  
             assertEquals(1,ini);
        } 
