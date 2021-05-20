@@ -21,9 +21,11 @@ public class Contador {
     }
 
     public int valorInicial() {
-          return 0;
+          return this.valorIniciar;
     }
 
-  
+    public int limite() {
+        return this.limite;
+    }
 
 }
